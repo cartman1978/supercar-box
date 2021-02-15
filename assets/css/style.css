@@ -38,3 +38,27 @@ body {
     color: #fff;
     font-size: 50px;
 }
+
+ ul {
+    position: relative;
+    display: flex;
+    top: 50px;
+}
+
+.home {
+    flex: 1;
+}
+
+nav ul li  {
+  list-style: none;
+  flex: 1;
+  text-align: center;
+  margin: 0.25em;
+  padding: 0.25em;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+}
