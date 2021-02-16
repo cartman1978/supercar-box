@@ -43,24 +43,24 @@ body {
 
 nav {
     background-color: azure;
-    opacity: 0.6;
+    opacity: 0.7;
     height: 9rem;
 }
 
-nav .navbar-brand  {
+ .navbar-expand-lg .navbar-nav .nav-link  {
   margin: 1rem;
   padding: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: rgb(63, 63, 63);
 }
 
 .navbar-toggler {
-    color: cyan;
+    color: rgb(63, 63, 63);
 }
 
 .navbar-toggler-icon {
-    color: red;
+    color: rgb(63, 63, 63);
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
