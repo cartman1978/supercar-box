@@ -42,17 +42,20 @@ body {
 }
 
 nav {
-    background-color: azure;
-    opacity: 0.7;
-    height: 9rem;
+    background-color: rgb(192,13,15);
+    opacity: 0.5;
+    height: 8rem;
+box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
  .navbar-expand-lg .navbar-nav .nav-link  {
   margin: 1rem;
   padding: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: rgb(63, 63, 63);
+  color: #fff;
 }
 
 .navbar-toggler {
