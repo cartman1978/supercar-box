@@ -67,3 +67,7 @@ nav .navbar-brand  {
     display: flex;
 }
 
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
