@@ -23,6 +23,7 @@ body {
     height: calc(100vh + 4rem);
     z-index: 1;
     filter: blur(0px);
+        height: 150vh;
 }
 
 .loading-text {
@@ -62,5 +63,7 @@ nav .navbar-brand  {
     color: red;
 }
 
-
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: flex;
+}
 
