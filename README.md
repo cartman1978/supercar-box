@@ -57,3 +57,10 @@ ___
 <a></a>
 
 ### **User Stories**
+
+* As a user, I would like to have an easy navigation menu especially when I'm using the mobile.
+* As a user, I want different option to click like factory made, year and top performance.
+* As a user, after click over a section I would like to have car technical info and a mini gallery picturs for that sspecific car model.
+* As a user, I would like to have media contet like videos where I can see the car in action and hear the engine sound.
+* As a user, I would like to have a section that talks about each car Factory made, how they produced and assemby the car.
+* As a user, I want to be able to beign redirect to online stores where I can look for t-shirt or gift idea.
