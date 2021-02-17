@@ -74,3 +74,29 @@ ___
 * To have an appealing website that supercar fans use to get car specification and performance.
 * To have a section whit car details along with mini image gallery for each section.
 * To have video content like test drives.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+### **User Requirements and Expectations**
+
+<a></a>
+
+#### Requirements
+
+* Easy to navigate by using buttons.
+* Appealing dashboard with different car model overview.
+* Easy way to get technical information and car performances.
+* Easy way to get gallery images.
+* Option to visit online store related to car model.
+
+<a></a>
+
+#### Expectations
+
+* When using mobile it should be easy to navigate between different car model.
+* To have a dashboard where all the main topics is visible.
+* Inside the car section it should be easy to find specific content.
+* To get nice gallery iamges for each car.
+* To get safe online shopping recommendation.
