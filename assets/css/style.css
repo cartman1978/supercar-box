@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-
 * {
     box-sizing: border-box;
 }
-
-
 
 html, body {
     font-family: 'Ubuntu', sans-serif;
@@ -25,7 +22,7 @@ html, body {
     height: calc(100vh + 4rem);
     z-index: 1;
     filter: blur(0px);
-        height: 150vh;
+    height: 150vh;
 }
 
 .loading-text {
@@ -41,43 +38,26 @@ html, body {
     top: 20rem;
     color: #fff;
     font-size: 3rem;
-    text-shadow: -2px -2px 0 rgb(192,13,15),
-               2px -2px 0 rgb(192,13,15),
-               -2px 2px 0 rgb(192,13,15),
-               2px 2px 0 rgb(192,13,15),
-               -3px 0 0 rgb(192,13,15),
-               3px 0 0 rgb(192,13,15),
-               0 -3px 0 rgb(192,13,15),
-               0 3px 0 rgb(192,13,15);
+    text-shadow: -2px -2px 0 rgb(192, 13, 15), 2px -2px 0 rgb(192, 13, 15), -2px 2px 0 rgb(192, 13, 15), 2px 2px 0 rgb(192, 13, 15), -3px 0 0 rgb(192, 13, 15), 3px 0 0 rgb(192, 13, 15), 0 -3px 0 rgb(192, 13, 15), 0 3px 0 rgb(192, 13, 15);
 }
-
 
 nav {
-    background-color: rgb(192,13,15);
+    background-color: rgb(192, 13, 15);
     opacity: 0.8;
     height: 6rem;
-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-
- .navbar-expand-lg .navbar-nav .nav-link  {
-  margin-top: 2rem;
-  padding: 2rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #fff;
-  text-shadow: -2px -2px 0 rgb(0, 0, 0),
-               2px -2px 0 rgb(0, 0, 0),
-               -2px 2px 0 rgb(0, 0, 0),
-               2px 2px 0 rgb(0, 0, 0),
-               -3px 0 0 rgb(0, 0, 0),
-               3px 0 0 rgb(0, 0, 0),
-               0 -3px 0 rgb(0, 0, 0),
-               0 3px 0 rgb(0, 0, 0);
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-top: 2rem;
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), -3px 0 0 rgb(0, 0, 0), 3px 0 0 rgb(0, 0, 0), 0 -3px 0 rgb(0, 0, 0), 0 3px 0 rgb(0, 0, 0);
 }
-
 
 .navbar-toggler {
     color: rgb(255, 255, 255);
@@ -86,7 +66,6 @@ box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
 
 .navbar-toggler-icon {
     color: rgb(255, 255, 255);
-    
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
@@ -110,7 +89,6 @@ box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
     .main h1 {
         font-size: 1.5rem;
     }
-
     .nav-item {
         margin-top: -5rem;
     }
