@@ -47,4 +47,13 @@ ___
 <a></a>
 
 ### **User Goals**
-* The website needs to be respononsive for all the devices line mobile, Tablet and Desktop.
+* The website needs to be respononsive for all the devices like mobile, Tablet and Desktop.
+* I want a nice background very attractive and easy to read.
+* The website will be implemented with scroll animation to give a fancy effect.
+* I would like to have an option to scroll car images along with technical information.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+### **User Stories**
