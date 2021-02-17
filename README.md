@@ -72,3 +72,5 @@ ___
 
 ### **Site owners Goals**
 * To have an appealing website that supercar fans use to get car specification and performance.
+* To have a section whit car details along with mini image gallery for each section.
+* To have video content like test drives.
