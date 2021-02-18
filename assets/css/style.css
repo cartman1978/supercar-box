@@ -96,11 +96,16 @@ nav {
     flex-direction: column;
     color: #fff;
     background-color: rgb(53, 56, 56);
-    margin: 5rem;
+    margin: auto;
+    max-width: 70rem;
 }
 
 h3 {
     margin: 2rem;
+}
+
+.img-box {
+    width: 30rem;
 }
 
 @media (max-width: 460px) {
@@ -109,5 +114,8 @@ h3 {
     }
     .nav-item {
         margin-top: -5rem;
+    }
+    .box-car {
+        max-width: 20rem;
     }
 }
