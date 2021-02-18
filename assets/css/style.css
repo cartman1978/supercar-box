@@ -85,6 +85,20 @@ nav {
     opacity: 1.5;
 }
 
+/* box-car */
+
+.box-car {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30rem;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgb(53, 56, 56);
+    margin: 5rem;
+}
+
 @media (max-width: 460px) {
     .main h1 {
         font-size: 1.5rem;
