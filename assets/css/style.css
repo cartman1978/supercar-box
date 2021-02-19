@@ -112,6 +112,10 @@ table, th, td {
     border: 1px solid #fff;
 }
 
+.img-fluid {
+    min-height: 5.7rem;
+}
+
 @media (max-width: 460px) {
     .main h1 {
         font-size: 1.5rem;
