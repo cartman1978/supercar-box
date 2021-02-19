@@ -30,10 +30,14 @@ body {
 .navbar {
     background-color: rgb(192, 13, 15);
     opacity: 0.8;
-    height: 8rem;
+    height: 6rem;
     box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-nav {
+    margin: 5rem;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
