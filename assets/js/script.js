@@ -23,6 +23,3 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 
 // Minigallery functionality
 
-function switchImage() {
-    if (document.getElementById)
-}
