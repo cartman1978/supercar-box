@@ -23,3 +23,12 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 
 // Minigallery functionality
 
+function switchStyle() {
+    if (document.getElementById('styleSwitch').checked) {
+        document.getElementById('gallery').classList.add("custom");
+        document.getElementById('carousel').classList.add("custom");
+    } else {
+        document.getElementById('gallery').classList.remove("custom");
+        document.getElementById('carousel').classList.remove("custom");
+    }
+}
