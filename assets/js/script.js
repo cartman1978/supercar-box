@@ -12,4 +12,13 @@ function bigTable(size) {
     size.style.fontWeight = 'bold';
     size.style.backgroundColor = '#F4CA04';
     size.style.borderColor = '#000000';
+
+}
+
+// Onmouseenter change box-car bg
+function changeBg() {
+    let newBg = document.getElementById('carBox');
+    newBg.style.backgroundImage = `url(assets/images/stainless.jpg)`;
+    newBg.style.backgroundRepeat = 'no-repeat';
+    newBg.style.backgroundSize = 'cover';
 }
