@@ -21,4 +21,5 @@ function changeBg() {
     newBg.style.backgroundImage = `url(assets/images/stainless.jpg)`;
     newBg.style.backgroundRepeat = 'no-repeat';
     newBg.style.backgroundSize = 'cover';
+    document.body.style.backgroundColor = '#424242'
 }
