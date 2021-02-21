@@ -11,5 +11,5 @@ function bigTable(size) {
     size.style.color = '#000000';
     size.style.fontWeight = 'bold';
     size.style.backgroundColor = '#F4CA04';
-    document.getElementById('displaytable').style.borderColor = 'yellow';
+    size.style.borderColor = '#000000';
 }
