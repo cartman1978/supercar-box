@@ -132,7 +132,7 @@ table, th, td {
 }
 
 #gallery img {
-    height: 4rem;
+    height: 4.3rem;
     cursor: pointer;
     margin-top: 1rem;
 }
@@ -150,6 +150,17 @@ table, th, td {
     -webkit-border-bottom-left-radius: 60px;
     -moz-border-radius-bottomleft: 60px;
     border-bottom-left-radius: 60px;
+}
+
+#overlay {
+    border: 1px solid #fff;
+    width: 25rem;
+    height: 20rem;
+    display: inline-block;
+    background-image: url('../images/2019_Ferrari_SF90_Stradale.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
 }
 
 @media (max-width: 576px) {
