@@ -24,18 +24,3 @@ function changeBg() {
     document.body.style.backgroundColor = '#424242'
 }
 
-// Handle zoom event on img gallery hover
-
-function zoomIn(event) {
-    let element = document.getElementById('overlay');
-    element.style.display = 'inline-block';
-    let img = document.getElementById('imgZoom');
-    let posX = event.offsetX ? (event.offsetX) : event.pageX - img.offsetLeft;
-    let posY = event.offsetY ? (event.offsetY) : event.pageY - img.offsetTop;
-    element.style.backgroundPosition = (-posX * 5) + "px " + (-posY * 5) + "px";
-}
-
-function zoomOut() {
-    let element = document.getElementById('overlay');
-    element.style.display = "none";
-}

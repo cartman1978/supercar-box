@@ -112,21 +112,20 @@
               Spec</button>
           </div>
           <div class="col">
-            <img class="img-box img-thumbnail" src="assets/images/ferrari-sf90.jpg" alt="ferrari-sf90">
+            <img class="img-box img-thumbnail" id="imgZoom" onmousemove="zoomIn(event)" onmouseout="zoomOut()"
+              src="assets/images/ferrari-sf90.jpg" alt="ferrari-sf90">
+            <div id="overlay" onmousemove="zoomIn(event)"></div>
 
             <!-- Gallery -->
 
 
             <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
               <div class="col-12 col-sm-6 col-lg-3">
-                <img class="w-100" id="imgZoom" onmousemove="zoomIn(event)" onmouseout="zoomOut(event)"
-                  src="assets/images/2019_Ferrari_SF90_Stradale.jpg" alt="First slide" data-target="#carouselExample"
-                  data-slide-to="0">
-                <div id="overlay" onmousemove="zoomIn(event)"></div>
+                <img class="w-100" src="assets/images/2019_Ferrari_SF90_Stradale.jpg" alt="First slide"
+                  data-target="#carouselExample" data-slide-to="0">
               </div>
               <div class="col-12 col-sm-6 col-lg-3">
-                <img class="w-100" id="imgZoom" onmousemove="zoomIn(event)" onmouseout="zoomOut(event)"
-                  src="assets/images/ferrari-sf90-stradale-2020-yellow.jpg" alt="Second slide"
+                <img class="w-100" src="assets/images/ferrari-sf90-stradale-2020-yellow.jpg" alt="Second slide"
                   data-target="#carouselExample" data-slide-to="1">
               </div>
               <div class="col-12 col-sm-6 col-lg-3">
