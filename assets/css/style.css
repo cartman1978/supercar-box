@@ -172,9 +172,9 @@ table, th, td {
     #gallery img {
         height: 10rem;
     }
-    /* table {
+    #displaytable {
         display: none;
-    } */
+    }
     /* #gallery {
         display: none;
     } */
