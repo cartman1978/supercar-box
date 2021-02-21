@@ -118,8 +118,8 @@ table, th, td {
 
 /* img gallery */
 
-/* .d-block {
-    height: 1rem;
+.d-block {
+    height: 15rem;
     margin: 15px 0;
     object-fit: cover;
     -webkit-border-top-left-radius: 70px;
@@ -128,10 +128,12 @@ table, th, td {
     -moz-border-radius-bottomright: 80px;
     border-top-left-radius: 70px;
     border-bottom-right-radius: 80px;
-} */
+}
 
 #gallery img {
-    height: 5rem;
+    height: 4rem;
+    cursor: pointer;
+    margin-top: 1rem;
 }
 
 .modal-content {
@@ -170,6 +172,12 @@ table, th, td {
     #gallery img {
         height: 10rem;
     }
+    /* table {
+        display: none;
+    } */
+    /* #gallery {
+        display: none;
+    } */
 }
 
 @media (max-width: 1000px) {
