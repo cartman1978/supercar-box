@@ -24,3 +24,30 @@ function changeBg() {
     document.body.style.backgroundColor = '#424242'
 }
 
+//Click the button to render car spec
+
+let Buttons = document.querySelectorAll('.selectSection button');
+
+for (let button of Buttons) {
+    button.addEventListener('click', (e) => {
+        const et = e.target;
+
+        const active = document.querySelector('.active');
+        //chack for active class on buttons and remove 
+        if (active) {
+            active.classList.remove('active');
+        }
+        //add active class to the clicked button
+        et.classList.add('active');
+
+        let allTableContent = document.querySelectorAll('.tableContent');
+
+        for (let tableContent of allTableContent) {
+            if (tableContent.getAttribute('data-number') === button.getAttribute('data-number')) {
+                tableContent.style.display = 'block';
+            } else {
+                tableContent.style.display = 'none';
+            }
+        }
+    });
+}
