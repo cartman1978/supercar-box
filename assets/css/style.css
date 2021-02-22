@@ -110,7 +110,7 @@ h3 {
 }
 
 table, th, td {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 
 .tableContent:not(:first-child) {
