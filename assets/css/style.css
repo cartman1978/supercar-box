@@ -16,6 +16,10 @@ body {
     margin: 0;
 }
 
+button:focus {
+    outline: none;
+}
+
 .main h1 {
     flex-direction: column;
     display: flex;
@@ -126,7 +130,6 @@ table, th, td {
     outline: none;
     width: 12rem;
     height: 4.5rem;
-    font-family: 'Barlow', sans-serif;
     font-size: 1.2rem;
     color: #fff;
     text-shadow: 0 2px 5px #000000;
@@ -183,6 +186,25 @@ table, th, td {
     -webkit-border-bottom-left-radius: 60px;
     -moz-border-radius-bottomleft: 60px;
     border-bottom-left-radius: 60px;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 0 2px 5px #000000;
+    background: linear-gradient(to top, #696969, #575757);
+    border: 2px solid #000000;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #696969, #575757);
+    color: rgb(158, 152, 152);
 }
 
 @media (max-width: 576px) {
