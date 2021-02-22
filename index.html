@@ -58,7 +58,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-6">
-            <table id="displaytable" onmouseenter="bigTable(this);">
+            <!-- <table id="displaytable" onmouseenter="bigTable(this);">
               <th colspan="2">Engine & Transmission</th>
               <tr>
                 <td>Capacity</td>
@@ -106,15 +106,92 @@
                 <td>Braking (100-0kmph)</td>
                 <td>29.5 m</td>
               </tr>
-            </table>
+            </table> -->
+
+
+            <div class="container">
+              <div class="selectSection">
+                <button type="button" data-number="1" class=" btn btn-warning m-1 active">Engine & Trasmission</button>
+
+              </div>
+
+              <div class="contentSection">
+                <div class="tableContent" data-number="1">
+                  <table id="displaytable" onmouseenter="bigTable(this);">
+                    <tr>
+                      <td>Capacity</td>
+                      <td> 4998</td>
+                    </tr>
+                    <tr>
+                      <td>No. of cylinder</td>
+                      <td>8</td>
+                    </tr>
+                    <tr>
+                      <td>Valves Per Cylinder</td>
+                      <td>8</td>
+                    </tr>
+                    <tr>
+                      <td>Gear Box</td>
+                      <td>8-speed</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="selectSection">
+
+                  <button class="btn btn-warning m-1" data-number="2">Fuel & Performance</button>
+
+                </div>
+                <div class="tableContent" data-number="2">
+                  <table id="displaytable" onmouseenter="bigTable(this);">
+                    <tr>
+                      <td>Fuel Type</td>
+                      <td>Petrol</td>
+                    </tr>
+                    <tr>
+                      <td>Top Speed</td>
+                      <td>340km/h</td>
+                    </tr>
+                    <tr>
+                      <td>Fuel Tank Capacity (Litres)</td>
+                      <td>68</td>
+                    </tr>
+                    <tr>
+                      <td>Acceleration</td>
+                      <td>2.5 sec</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="selectSection">
+
+                  <button class="btn btn-warning m-1" data-number="3">Suspension & Brakes</button>
+                </div>
+                <div class="tableContent" data-number="3">
+                  <table id="displaytable" onmouseenter="bigTable(this);">
+                    <tr>
+                      <td>Front Suspension</td>
+                      <td>independent,double wishbones</td>
+                    </tr>
+                    <tr>
+                      <td>Rear Suspension</td>
+                      <td>independent, multi-link</td>
+                    </tr>
+                    <tr>
+                      <td>Braking (100-0kmph)</td>
+                      <td>29.5 m</td>
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+
             <button class="btn btn-warning m-2 d-lg-none d-md-none" id="showtable"
               onclick="tableMobile('displaytable')">Car
               Spec</button>
           </div>
           <div class="col">
-            <img class="img-box img-thumbnail" id="imgZoom" onmousemove="zoomIn(event)" onmouseout="zoomOut()"
-              src="assets/images/ferrari-sf90.jpg" alt="ferrari-sf90">
-            <div id="overlay" onmousemove="zoomIn(event)"></div>
+            <img class="img-box img-thumbnail" src="assets/images/ferrari-sf90.jpg" alt="ferrari-sf90">
+
 
             <!-- Gallery -->
 
