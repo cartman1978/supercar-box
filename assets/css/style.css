@@ -99,7 +99,8 @@ button:focus {
     top: 30rem;
     flex-direction: column;
     color: #fff;
-    background-color: rgb(53, 56, 56);
+    /* background-color: rgb(53, 56, 56); */
+    background-image: url('../images/bg-fiber.jpg');
     margin: auto;
     max-width: 70rem;
     border-radius: 2rem;
@@ -107,6 +108,7 @@ button:focus {
 
 h3 {
     margin: 2rem;
+    text-shadow: -2px -2px 0 rgb(192, 13, 15), 2px -2px 0 rgb(192, 13, 15), -2px 2px 0 rgb(192, 13, 15), 2px 2px 0 rgb(192, 13, 15), -3px 0 0 rgb(192, 13, 15), 3px 0 0 rgb(192, 13, 15), 0 -3px 0 rgb(192, 13, 15), 0 3px 0 rgb(192, 13, 15);
 }
 
 .img-box {
@@ -218,6 +220,7 @@ table, th, td {
     margin-bottom: 3rem;
     height: 1.2rem;
     margin-left: -3rem;
+    text-shadow: -2px -2px 0 rgb(192, 13, 15), 2px -2px 0 rgb(192, 13, 15), -2px 2px 0 rgb(192, 13, 15), 2px 2px 0 rgb(192, 13, 15), -3px 0 0 rgb(192, 13, 15), 3px 0 0 rgb(192, 13, 15), 0 -3px 0 rgb(192, 13, 15), 0 3px 0 rgb(192, 13, 15);
 }
 
 #button-more {

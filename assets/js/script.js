@@ -18,7 +18,7 @@ function bigTable(changeBg) {
 // Onmouseenter change box-car bg
 function changeBg() {
     let newBg = document.getElementById('carBox');
-    newBg.style.backgroundImage = `url(assets/images/stainless.jpg)`;
+    newBg.style.backgroundImage = `url(assets/images/mouseenter-bg.jpg)`;
     newBg.style.backgroundRepeat = 'no-repeat';
     newBg.style.backgroundSize = 'cover';
     document.body.style.backgroundColor = '#F4CA04'
