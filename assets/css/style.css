@@ -232,6 +232,7 @@ table, th, td {
 
 #button-more {
     margin-bottom: 1rem;
+    margin-left: 3.2rem;
 }
 
 @media (max-width: 576px) {
