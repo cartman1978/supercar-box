@@ -217,6 +217,11 @@ table, th, td {
     padding: 1.5rem;
     margin-bottom: 3rem;
     height: 1.2rem;
+    margin-left: -3rem;
+}
+
+#button-more {
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 576px) {
@@ -247,16 +252,11 @@ table, th, td {
     #displaytable {
         /* display: none; */
     }
+    #text-anim {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
 }
-
-/* @media (min-width: 700px) {
-    #gallery {
-        margin-left: -8rem;
-    }
-    #gallery img {
-        height: 6rem;
-    }
-} */
 
 @media (max-width: 1000px) {
     .container-fluid {
