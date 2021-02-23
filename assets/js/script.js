@@ -21,6 +21,7 @@ function changeBg() {
     newBg.style.backgroundImage = `url(assets/images/mouseenter-bg.jpg)`;
     newBg.style.backgroundRepeat = 'no-repeat';
     newBg.style.backgroundSize = 'cover';
+    newBg.style.boxShadow = `3px -3px 5px 0px #CB2D11`;
     document.body.style.backgroundColor = '#F4CA04'
 }
 
