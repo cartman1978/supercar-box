@@ -21,7 +21,7 @@ function changeBg() {
     newBg.style.backgroundImage = `url(assets/images/stainless.jpg)`;
     newBg.style.backgroundRepeat = 'no-repeat';
     newBg.style.backgroundSize = 'cover';
-    document.body.style.backgroundColor = '#424242'
+    document.body.style.backgroundColor = '#F4CA04'
 }
 
 //Click the button to render car spec
@@ -54,7 +54,7 @@ for (let button of Buttons) {
 
 //Text animation 
 
-const text = 'Factory made and fun fact!';
+const text = 'Factory made production and assemby... ';
 let index = 0;
 
 function writeText() {
@@ -68,4 +68,4 @@ function writeText() {
     }
 }
 
-setInterval(writeText, 100);
+setInterval(writeText, 200);

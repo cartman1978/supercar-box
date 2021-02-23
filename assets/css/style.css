@@ -25,7 +25,7 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 7rem;
     margin-bottom: 3rem;
     color: #fff;
     font-size: 3rem;
@@ -111,6 +111,7 @@ h3 {
 
 .img-box {
     width: 33rem;
+    margin-left: -4rem;
 }
 
 table, th, td {
@@ -178,6 +179,10 @@ table, th, td {
     border: none;
 }
 
+.embed-responsive {
+    width: 65%;
+}
+
 #gallery.custom {
     padding: 0 15px;
 }
@@ -209,13 +214,10 @@ table, th, td {
 
 #text-anim {
     color: #fff;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
     height: 1.2rem;
-}
-
-#button-more {
-    overflow: hidden;
 }
 
 @media (max-width: 576px) {
@@ -238,6 +240,10 @@ table, th, td {
     }
     #gallery img {
         height: 10rem;
+        margin: 0 !important;
+    }
+    .img-box {
+        margin: 0;
     }
     #displaytable {
         /* display: none; */
@@ -245,6 +251,12 @@ table, th, td {
     /* #gallery {
         display: none;
     } */
+}
+
+@media (min-width: 700px) {
+    #gallery {
+        margin-left: -8rem;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -259,5 +271,11 @@ table, th, td {
     .modal-body::before {
         top: -5px;
         left: -5px;
+    }
+}
+
+@media (max-width: 1500px) {
+    #gallery {
+        /* margin-left: -6rem; */
     }
 }
