@@ -208,8 +208,14 @@ table, th, td {
 }
 
 #text-anim {
-    color: red;
+    color: #fff;
     font-size: 2rem;
+    padding: 2rem;
+    height: 1.2rem;
+}
+
+#button-more {
+    overflow: hidden;
 }
 
 @media (max-width: 576px) {
