@@ -70,3 +70,17 @@ function writeText() {
 }
 
 setInterval(writeText, 200);
+
+// Popup container 
+
+const open = document.getElementById('button-more');
+const close = document.getElementById('close');
+const container = document.getElementById('factory');
+
+open.addEventListener('click', () => {
+    container.classList.add('active');
+});
+
+close.addEventListener('click', () => {
+    container.classList.remove('active');
+});
