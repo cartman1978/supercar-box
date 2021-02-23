@@ -207,6 +207,11 @@ table, th, td {
     color: rgb(158, 152, 152);
 }
 
+#text-anim {
+    color: red;
+    font-size: 2rem;
+}
+
 @media (max-width: 576px) {
     .main h1 {
         font-size: 1.5rem;

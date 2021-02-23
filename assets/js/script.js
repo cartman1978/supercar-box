@@ -51,3 +51,21 @@ for (let button of Buttons) {
         }
     });
 }
+
+//Text animation 
+
+const text = 'Factory made and fun fact!';
+let index = 0;
+
+function writeText() {
+    document.getElementById('text-anim').innerHTML = text.slice(0, index);
+
+
+    index++;
+
+    if (index > text.length - 1) {
+        index = 0;
+    }
+}
+
+setInterval(writeText, 100);
