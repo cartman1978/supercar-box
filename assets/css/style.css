@@ -111,7 +111,6 @@ h3 {
 
 .img-box {
     width: 33rem;
-    margin-left: -4rem;
 }
 
 table, th, td {
@@ -248,16 +247,16 @@ table, th, td {
     #displaytable {
         /* display: none; */
     }
-    /* #gallery {
-        display: none;
-    } */
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
     #gallery {
         margin-left: -8rem;
     }
-}
+    #gallery img {
+        height: 6rem;
+    }
+} */
 
 @media (max-width: 1000px) {
     .container-fluid {
@@ -274,8 +273,12 @@ table, th, td {
     }
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
+    .img-box {
+        width: 33rem;
+        margin-left: -4rem;
+    }
     #gallery {
-        /* margin-left: -6rem; */
+        margin-left: -8rem;
     }
 }
